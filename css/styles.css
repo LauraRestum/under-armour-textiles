@@ -310,31 +310,6 @@ body {
   position: relative;
   background: #000818;
 }
-.proof-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  overflow: hidden;
-}
-.proof-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 30%;
-  opacity: 0.18;
-  filter: saturate(0.1) brightness(0.6) blur(12px);
-}
-.proof-bg::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at center, transparent 20%, rgba(0,8,24,0.85) 100%);
-  pointer-events: none;
-}
-.slide-proof > *:not(.proof-bg) {
-  position: relative;
-  z-index: 1;
-}
 .proof-layout {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
