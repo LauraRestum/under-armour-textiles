@@ -90,16 +90,6 @@ body {
   letter-spacing: 0.22em;
   color: #fff;
 }
-.slide-footer {
-  position: absolute;
-  bottom: 2rem; left: 6rem;
-  font-size: 0.62rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #fff;
-}
-.slide-footer span { color: var(--green); }
 
 /* ============ SLIDE 1: TITLE ============ */
 .slide-title {
@@ -627,7 +617,6 @@ cite {
 @media (max-width: 1100px) {
   .slide { padding: 4rem 3rem; }
   .slide-num { right: 3rem; }
-  .slide-footer { left: 3rem; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .overview-grid { grid-template-columns: repeat(2, 1fr); }
   .cap-grid { grid-template-columns: 1fr; }
@@ -641,7 +630,6 @@ cite {
 @media (max-width: 700px) {
   .slide { padding: 3.5rem 1.5rem; overflow-y: auto; }
   .slide-num { right: 1.5rem; top: 1.25rem; }
-  .slide-footer { left: 1.5rem; bottom: 1.25rem; }
   .stats-grid { grid-template-columns: 1fr; }
   .overview-grid { grid-template-columns: 1fr; }
   .deck-nav { bottom: 1rem; right: 1rem; }
