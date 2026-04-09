@@ -574,11 +574,11 @@ cite {
   display: block;
 }
 .contact-lets-build {
-  font-size: 1.1rem;
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--green);
+  color: #78BE21;
   margin-bottom: 1.5rem;
 }
 .contact-left h1 {
