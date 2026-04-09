@@ -77,8 +77,8 @@ body {
 }
 .slide h2 em { font-style: normal; color: var(--green); }
 .slide-sub {
-  font-size: 1.05rem;
-  color: var(--text-muted);
+  font-size: 1.18rem;
+  color: #ffffff;
   line-height: 1.75;
   max-width: 640px;
 }
@@ -210,8 +210,8 @@ body {
   line-height: 1.25;
 }
 .ov-cell p {
-  font-size: 0.78rem;
-  color: var(--text-muted);
+  font-size: 0.88rem;
+  color: #ffffff;
   line-height: 1.55;
   margin: 0;
 }
@@ -289,8 +289,8 @@ body {
   line-height: 1.3;
 }
 .cap-card p {
-  font-size: 0.88rem;
-  color: var(--text-muted);
+  font-size: 0.98rem;
+  color: #ffffff;
   line-height: 1.7;
 }
 
@@ -309,8 +309,8 @@ body {
 }
 .proof-left h2 { margin-bottom: 1.5rem; }
 .proof-left p {
-  font-size: 0.98rem;
-  color: var(--text-muted);
+  font-size: 1.08rem;
+  color: #ffffff;
   line-height: 1.8;
   margin-bottom: 1rem;
   max-width: 460px;
@@ -335,8 +335,8 @@ body {
   line-height: 1.25;
 }
 .proof-card p {
-  color: var(--text-muted);
-  font-size: 0.92rem;
+  color: #ffffff;
+  font-size: 1.02rem;
   line-height: 1.75;
   margin-bottom: 2rem;
 }
@@ -413,7 +413,7 @@ cite {
 .slide-opportunity .slide-sub {
   margin: 0 auto;
   max-width: 720px;
-  font-size: 1.15rem;
+  font-size: 1.28rem;
 }
 
 /* ============ SLIDE 8: PARTNERSHIP PILLARS ============ */
@@ -447,8 +447,8 @@ cite {
   line-height: 1.25;
 }
 .pillar p {
-  font-size: 0.9rem;
-  color: var(--text-muted);
+  font-size: 1rem;
+  color: #ffffff;
   line-height: 1.75;
 }
 
@@ -485,8 +485,8 @@ cite {
   line-height: 1.25;
 }
 .close-pillar p {
-  font-size: 0.88rem;
-  color: var(--text-muted);
+  font-size: 0.98rem;
+  color: #ffffff;
   line-height: 1.75;
   margin-bottom: 0.75rem;
 }
@@ -522,8 +522,8 @@ cite {
   margin-bottom: 2rem;
 }
 .contact-left .address {
-  font-size: 0.88rem;
-  color: var(--text-muted);
+  font-size: 0.98rem;
+  color: #ffffff;
   line-height: 1.8;
   padding-top: 2rem;
   border-top: 1px solid var(--border-dark);
@@ -561,8 +561,8 @@ cite {
   letter-spacing: -0.005em;
 }
 .cc-title {
-  font-size: 0.72rem;
-  color: var(--text-muted);
+  font-size: 0.82rem;
+  color: #ffffff;
   line-height: 1.5;
 }
 .cc-detail {
