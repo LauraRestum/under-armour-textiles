@@ -140,9 +140,11 @@ body {
   align-items: center;
 }
 .title-logo {
-  height: 40px;
-  width: auto;
-  flex-shrink: 0;
+  width: 160px !important;
+  max-width: 160px !important;
+  height: auto;
+  flex: none;
+  object-fit: contain;
 }
 .title-meta-item .tm-label {
   font-size: 0.62rem; font-weight: 700; letter-spacing: 0.18em;
