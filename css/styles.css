@@ -92,17 +92,19 @@ body {
 }
 
 /* Hand logo watermark on every slide */
-.slide-hand-logo {
+.slide .slide-hand-logo {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
-  width: 36px !important;
+  width: 36px;
   max-width: 36px;
+  min-width: 0;
   height: auto;
+  max-height: 36px;
   opacity: 0.12;
   pointer-events: none;
   z-index: 1;
-  flex-shrink: 0;
+  object-fit: contain;
 }
 
 /* ============ SLIDE 1: TITLE ============ */
