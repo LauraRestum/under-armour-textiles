@@ -96,11 +96,13 @@ body {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
-  width: 36px;
+  width: 36px !important;
+  max-width: 36px;
   height: auto;
   opacity: 0.12;
   pointer-events: none;
   z-index: 1;
+  flex-shrink: 0;
 }
 
 /* ============ SLIDE 1: TITLE ============ */
